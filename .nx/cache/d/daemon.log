@@ -1,0 +1,66 @@
+[NX Daemon Server] - 2023-12-29T09:56:43.724Z - Started listening on: \\.\pipe\nx\C:\Users\Dell\AppData\Local\Temp\c67dce83711fa14340da\d.sock
+[NX Daemon Server] - 2023-12-29T09:56:43.727Z - [WATCHER]: Subscribed to changes within: C:\Users\Dell\Downloads\dynamic-forms (native)
+[NX Daemon Server] - 2023-12-29T09:56:43.733Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-29T09:56:43.736Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-29T09:56:43.738Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-29T09:56:43.758Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-29T09:56:43.758Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-29T09:56:43.764Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-29T09:56:43.866Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+Error: The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+    at readProjectConfigurationsFromRootMap (C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:218:15)
+    at C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:188:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createProjectConfigurations (C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:89:62)
+    at async processFilesAndCreateAndSerializeProjectGraph (C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\server.js:110:16)
+    at async handleMessage (C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\server.js:81:9)
+    at async C:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\server.js:45:9
+[NX Daemon Server] - 2023-12-29T09:56:43.869Z - Time taken for 'hash changed files from watcher' 18.061500012874603ms
+[NX Daemon Server] - 2023-12-29T09:56:43.869Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-29T09:56:43.870Z - Done responding to the client null
+[NX Daemon Server] - 2023-12-30T05:43:29.619Z - Started listening on: \\.\pipe\nx\C:\Users\Dell\AppData\Local\Temp\c67dce83711fa14340da\d.sock
+[NX Daemon Server] - 2023-12-30T05:43:29.626Z - [WATCHER]: Subscribed to changes within: c:\Users\Dell\Downloads\dynamic-forms (native)
+[NX Daemon Server] - 2023-12-30T05:43:29.628Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-30T05:43:29.633Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-30T05:43:29.633Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-30T05:43:29.638Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-30T05:43:29.645Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-30T05:43:29.645Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-30T05:43:29.645Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-30T05:43:29.851Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+Error: The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+    at readProjectConfigurationsFromRootMap (c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:218:15)
+    at c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:188:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createProjectConfigurations (c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:89:62)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\server.js:110:16)
+    at async handleMessage (c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\server.js:81:9)
+    at async c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\server.js:45:9
+[NX Daemon Server] - 2023-12-30T05:43:29.855Z - Time taken for 'hash changed files from watcher' 5.4444000124931335ms
+[NX Daemon Server] - 2023-12-30T05:43:29.856Z - Done responding to the client null
