@@ -64,3 +64,135 @@ To fix this, set a unique name for each project in a project.json inside the pro
     at async c:\Users\Dell\Downloads\dynamic-forms\node_modules\nx\src\daemon\server\server.js:45:9
 [NX Daemon Server] - 2023-12-30T05:43:29.855Z - Time taken for 'hash changed files from watcher' 5.4444000124931335ms
 [NX Daemon Server] - 2023-12-30T05:43:29.856Z - Done responding to the client null
+[NX Daemon Server] - 2023-12-31T11:05:29.040Z - Started listening on: \\.\pipe\nx\C:\Users\Dell\AppData\Local\Temp\209ffd58949a00728a2a\d.sock
+[NX Daemon Server] - 2023-12-31T11:05:29.045Z - [WATCHER]: Subscribed to changes within: d:\Angular\dynamic-forms (native)
+[NX Daemon Server] - 2023-12-31T11:05:29.049Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:05:29.051Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-31T11:05:29.051Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:05:29.053Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-31T11:05:29.064Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-31T11:05:29.064Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:05:29.065Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:05:29.168Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+Error: The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+    at readProjectConfigurationsFromRootMap (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:218:15)
+    at d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:188:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createProjectConfigurations (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:89:62)
+    at async processFilesAndCreateAndSerializeProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:110:16)
+    at async handleMessage (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:81:9)
+    at async d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:45:9
+[NX Daemon Server] - 2023-12-31T11:05:29.174Z - Time taken for 'hash changed files from watcher' 9.763800024986267ms
+[NX Daemon Server] - 2023-12-31T11:05:29.175Z - Done responding to the client null
+[NX Daemon Server] - 2023-12-31T11:06:00.079Z - Started listening on: \\.\pipe\nx\C:\Users\Dell\AppData\Local\Temp\209ffd58949a00728a2a\d.sock
+[NX Daemon Server] - 2023-12-31T11:06:00.082Z - [WATCHER]: Subscribed to changes within: d:\Angular\dynamic-forms (native)
+[NX Daemon Server] - 2023-12-31T11:06:00.091Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:06:00.093Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-31T11:06:00.094Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:06:00.096Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-31T11:06:00.097Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-31T11:06:00.097Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:06:00.097Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:06:00.169Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+Error: The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+    at readProjectConfigurationsFromRootMap (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:218:15)
+    at d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:188:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createProjectConfigurations (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:89:62)
+    at async processFilesAndCreateAndSerializeProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:110:16)
+    at async handleMessage (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:81:9)
+    at async d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:45:9
+[NX Daemon Server] - 2023-12-31T11:06:00.171Z - Time taken for 'hash changed files from watcher' 0.4311000108718872ms
+[NX Daemon Server] - 2023-12-31T11:06:00.172Z - Done responding to the client null
+[NX Daemon Server] - 2023-12-31T11:06:12.219Z - Started listening on: \\.\pipe\nx\C:\Users\Dell\AppData\Local\Temp\209ffd58949a00728a2a\d.sock
+[NX Daemon Server] - 2023-12-31T11:06:12.222Z - [WATCHER]: Subscribed to changes within: d:\Angular\dynamic-forms (native)
+[NX Daemon Server] - 2023-12-31T11:06:12.225Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:06:12.227Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-31T11:06:12.227Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:06:12.229Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-31T11:06:12.230Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-31T11:06:12.230Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:06:12.230Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:06:12.300Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+Error: The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+    at readProjectConfigurationsFromRootMap (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:218:15)
+    at d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:188:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createProjectConfigurations (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:89:62)
+    at async processFilesAndCreateAndSerializeProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:110:16)
+    at async handleMessage (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:81:9)
+    at async d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:45:9
+[NX Daemon Server] - 2023-12-31T11:06:12.302Z - Time taken for 'hash changed files from watcher' 0.3539000153541565ms
+[NX Daemon Server] - 2023-12-31T11:06:12.303Z - Done responding to the client null
+[NX Daemon Server] - 2023-12-31T11:06:16.790Z - Started listening on: \\.\pipe\nx\C:\Users\Dell\AppData\Local\Temp\209ffd58949a00728a2a\d.sock
+[NX Daemon Server] - 2023-12-31T11:06:16.794Z - [WATCHER]: Subscribed to changes within: d:\Angular\dynamic-forms (native)
+[NX Daemon Server] - 2023-12-31T11:06:16.802Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:06:16.804Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-31T11:06:16.806Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-31T11:06:16.808Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-31T11:06:16.808Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:06:16.808Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-31T11:06:16.884Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+Error: The following projects are defined in multiple locations:
+- dynamic-forms: 
+  - .
+  - 
+
+To fix this, set a unique name for each project in a project.json inside the project's root. If the project does not currently have a project.json, you can create one that contains only a name.
+    at readProjectConfigurationsFromRootMap (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:218:15)
+    at d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\project-configuration-utils.js:188:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createProjectConfigurations (d:\Angular\dynamic-forms\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:89:62)
+    at async processFilesAndCreateAndSerializeProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:110:16)
+    at async handleMessage (d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:81:9)
+    at async d:\Angular\dynamic-forms\node_modules\nx\src\daemon\server\server.js:45:9
+[NX Daemon Server] - 2023-12-31T11:06:16.887Z - Time taken for 'hash changed files from watcher' 0.453499972820282ms
+[NX Daemon Server] - 2023-12-31T11:06:16.887Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-31T11:06:16.888Z - Done responding to the client null
