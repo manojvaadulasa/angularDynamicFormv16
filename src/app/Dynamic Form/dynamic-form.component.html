@@ -4,7 +4,7 @@
     <ng-container *ngIf="['text','email','password','number','date'].includes(control.type)">
       <div [class]="control.class">
         <label class="form-label">{{control.label}}</label>
-        <input formControlName="{{control.name}}" class="form-control" [type]="control.type">
+        <input formControlName="{{control.name}}" [placeholder]="control.placeholder" class="form-control" [type]="control.type">
         <small
           *ngIf="dynamicForm.get(control.name)?.invalid && dynamicForm.get(control.name)?.touched || myForm.submitted"
           class="text-danger"
